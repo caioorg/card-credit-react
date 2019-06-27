@@ -5,8 +5,8 @@ import Payment from 'payment'
 export default class App extends Component {
   state = { 
     type: '',
-    number: '',
-    name: '',
+    number: '**** **** **** ****',
+    name: 'YOUR NAME',
     cvv: ''
   }
 
@@ -14,16 +14,26 @@ export default class App extends Component {
     if(event.target.value.length > 0) {
       this.setState({ ...this.state, type: Payment.fns.cardType(event.target.value), number: event.target.value})
     } else {
-      this.setState({ ...this.state, type: ''})
+      this.setState({ ...this.state, type: '', number: '**** **** **** ****' })
     }
   }
 
   onHandleChangeName = event => {
-    this.setState({ ...this.state, name: event.target.value })
+    if(event.target.value.length > 0) {
+      this.setState({ ...this.state, name: event.target.value })  
+    } else {
+      this.setState({ ...this.state, name: 'YOUR NAME' })
+    }
+    
   }
   
   onHandleChangeCVV = event => {
-    this.setState({ ...this.state, cvv: event.target.value })
+    if(event.target.value.length > 0) {
+      this.setState({ ...this.state, cvv: event.target.value })
+    } else {
+      this.setState({ ...this.state, cvv: '' })
+    }
+    
   }
 
   render() {
