@@ -1,4 +1,4 @@
-# GitHub Compare With React
+# Model Application Credit Card With React
 
 This project developed as a form of study using some libraries that the job market asked for today, containing a good structure of files and organization of code. Run the application and be happy.
 
