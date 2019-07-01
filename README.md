@@ -5,7 +5,7 @@ This project developed as a form of study using some libraries that the job mark
 - Create React App by [create-react-app](https://github.com/facebook/create-react-app)
 - React support by [react](https://babeljs.io)
 - Payment by [payment](https://www.npmjs.com/package/payment)
-- SCSS by [scss](https://sass-lang.com/
+- SCSS by [scss](https://sass-lang.com/)
 
 ![](https://github.com/caioorg/card-credit-react/blob/master/example.gif)
 
