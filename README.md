@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GitHub Compare With React
 
-## Available Scripts
+This project developed as a form of study using some libraries that the job market asked for today, containing a good structure of files and organization of code. Run the application and be happy.
 
-In the project directory, you can run:
+- Create React App by [create-react-app](https://github.com/facebook/create-react-app)
+- React support by [react](https://babeljs.io)
+- Payment by [payment](https://www.npmjs.com/package/payment)
+- SCSS by [scss](https://sass-lang.com/
 
-### `npm start`
+![](https://github.com/caioorg/card-credit-react/blob/master/example.gif)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+# clone it
+  git clone https://github.com/caioorg/card-credit-react
+  cd card-credit-react
 
-### `npm run build`
+# Make it your own
+  rm -rf .git && git init
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+  yarn install
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+# Start project development
+  yarn start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# If you want to start production
+  yarn build
 
-### `npm run eject`
+# To run the tests. *(Note: to run the application tests you must be running)*
+  yarn test
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Number of Test Cards
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+# American Express: 378282246310005
+# Dinners Club: 30569309025904
+# MasterCard: 5555555555554444
+# Visa: 4111111111111111
+# Elo: 4514160000000008
+# HiperCard: 3841001111222233334
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+MIT
